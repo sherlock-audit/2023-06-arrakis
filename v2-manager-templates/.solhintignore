@@ -1,0 +1,9 @@
+node_modules/
+contracts/vendor
+contracts/__mocks__
+contracts/errors
+contracts/interfaces
+contracts/structs
+contracts/constants
+contracts/functions
+test/
