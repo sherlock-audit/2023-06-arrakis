@@ -11,7 +11,6 @@
     "lint": "eslint --cache . && yarn lint:sol",
     "lint:ts": "eslint -c .eslintrc.json --ext \"**/*.ts\" \"**/*.test.ts\"",
     "lint:sol": "solhint 'contracts/**/*.sol'",
-    "postinstall": "yarn husky install",
     "test": "npx hardhat test",
     "verify": "npx hardhat etherscan-verify"
   },
